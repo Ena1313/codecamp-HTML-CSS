@@ -1,0 +1,159 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Original Trombones</title>
+</head>
+<body>
+  <header id="header">
+    
+    <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" alt="Instagram logo"/>
+   <h1>Instagram</h1> 
+   <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#How_it_works">How it works</a></li>
+        <li><a class="nav-link" href="#About">About</a></li>
+        <li><a class="nav-link" href="#Log_in">Log in</a></li> 
+      </ul>
+    </nav>
+  </header>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+  Email <input id="email" placeholder="Enter your email address" type="email" name="email"/><br><br>
+  <input id="submit" type="submit" />
+</form>
+  <section id="How_it_works">
+    <h2>How it Works</h2>
+    <p>It's hard to remember a time before Instagram. At one time, "Do it for the 'gram" was a common saying, which meant, essentially, "Do something so we can take a picture and post it to Instagram."<br>
+
+Since then, Instagram has placed a larger and heavier emphasis on video. So you no longer hear the phrase “Do it for the ‘gram.” I bet, though, that a second version of the phrase will soon follow. (Maybe “Do it for reel?”)<br>
+
+If you're not part of the one billion users on Instagram, you might want to reconsider. The app is a great chance to engage with top brands and stay a part of friends' lives. When I want to see how my college friends are doing, I don't check Facebook, I check Instagram. Plus, you can follow your favorite celebrities or political figures to see candid photos of their everyday lives.
+<br>
+Additionally, it's a phenomenal platform for investigating what other brands are doing — for instance, Nike uses the Instagram Stories' feature to promote inspirational athlete stories you won't find anywhere else.</p>
+  </section>
+  <section id="About">
+    <h2>About</h2>
+    <p>Instagram is a photo and video sharing social networking service owned by American company Meta Platforms. The app allows users to upload media that can be edited with filters and organized by hashtags and geographical tagging. Posts can be shared publicly or with preapproved followers. Users can browse other users' content by tag and location, view trending content, like photos, and follow other users to add their content to a personal feed.<br>
+
+Instagram was originally distinguished by allowing content to be framed only in a square (1:1) aspect ratio of 640 pixels to match the display width of the iPhone at the time. In 2015, this restriction was eased with an increase to 1080 pixels. It also added messaging features, the ability to include multiple images or videos in a single post, and a Stories feature—similar to its main competitor Snapchat—which allowed users to post their content to a sequential feed, with each post accessible to others for 24 hours. As of January 2019, Stories is used by 500 million people daily.
+
+</p>
+  </section>
+  <section id="Log_in">
+    
+    <h2>How to Sign Up for Instagram</h2>
+    <h4>To sign up for Instagram, all you need to do is download the Instagram app on your phone and click the 'Sign up' button. You can choose to sign up through Facebook or use your email or phone number. After you choose a username and password, you’re ready to build your profile.</h4>
+    <p>If you're ready to sign up for Instagram, follow these steps below:
+    </p>
+    <ul>
+      <li>Go to the Instagram site on your desktop, or download the Instagram app from the App Store (iPhone) or Google Play Store (Android).</li>
+      <li>If you're on desktop, click "Log in with Facebook", or fill in the form with your mobile number or email, name, username, and password. Then click "Sign up".</li>
+      <li>On Android, click "Sign Up With Email or Phone Number".</li>
+      <li>On iPhone, select "Sign Up".</li>
+      <li>Enter your email address or phone number, then click "Next". Alternatively, you can sign up with your Facebook account.</li>
+      <li>Once you've filled out your username and password, you will be instructed to fill out your profile info. Then, tap "Done".</li>
+      <li>If you register with Facebook, you'll need to log into your Facebook account if you're currently logged out.</li> 
+    </ul>
+  </section>
+
+<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/ppXrPOz8gKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+font-family: "Lexend Deca","Helvetica Neue",Helvetica,Arial,sans-serif;
+background: linear-gradient(
+  rgb(0,10,100),
+  rgb(100,0,100),
+  rgb(120,0,0),
+  rgb(100,30,30),
+  rgb(200,50,0) 90%,
+  yellow
+);
+color:white;
+}
+
+#nav-bar{
+  position: fixed;
+  top:0;
+  right:0;
+  color: white;
+} 
+
+#header-img{
+  width:50px;
+}
+
+h1{
+  display:inline;
+  padding:20px 20px;
+  
+}
+
+#nav-bar li{
+  display:inline;
+  margin:20px;
+}
+
+a{
+  text-decoration:none;
+  color:white;
+}
+
+a:hover{
+  cursor:pointer;
+  color:pink;
+}
+
+form{
+  text-align:center;
+  padding:30px;
+  font-size:1rem;
+}
+
+iframe{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding: auto;
+}
+
+@media(max-width:700px){
+h1{
+  font-size: 20px;
+}
+
+h2{
+  font-size:15px;
+}
+
+h4{
+  font-size:10px;
+}
+
+p, li{
+  font-size:10px
+}
+
+}
+
+section{
+  padding:10px 30px;
+}
+
+ul li{
+padding: 10px;
+}
+
+** end of undefined **
+
